@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CulturaActiva</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5">
+            <div class="row gx-4 d-none d-lg-flex">
+                <div class="col-lg-6 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-map-marker-alt text-white"
+                            ></small>
+                        </div>
+                        <small
+                            >C. Tiberio, 15, 28232 Las Rozas de Madrid, Madrid,
+                            España</small
+                        >
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small
+                                class="fa fa-envelope-open text-white"
+                            ></small>
+                        </div>
+                        <small>cultura_activa@gmail.com</small>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="fa fa-phone-alt text-white"></small>
+                        </div>
+                        <small>+34916266106</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <div
+                            class="btn-sm-square rounded-circle bg-primary me-2"
+                        >
+                            <small class="far fa-clock text-white"></small>
+                        </div>
+                        <small>Lun - Vie : 9AM - 9PM</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">CulturaActiva</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-4 py-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Inicio</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                    <a href="catalog.html" class="nav-item nav-link"
+                        >Noticias</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Contacto</a
+                    >
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Bienvenidos al Mundo del Arte, Deportes
+                                        y Cultura
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Explora las últimas noticias, eventos y
+                                        análisis del vibrante mundo del arte,
+                                        deportes y cultura en España. Desde
+                                        exposiciones de renombre hasta los
+                                        momentos más emocionantes en el deporte,
+                                        todo lo encuentras aquí.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Descubre los Eventos Culturales de
+                                        España
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Conoce los eventos culturales más
+                                        destacados, desde festivales de cine y
+                                        teatro hasta conciertos y exposiciones
+                                        que reflejan la diversidad y riqueza
+                                        cultural española.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Pasión por el Deporte Español
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Sumérgete en el apasionante mundo del
+                                        deporte en España. Desde La Liga hasta
+                                        competiciones locales, te traemos las
+                                        últimas noticias y análisis sobre tus
+                                        deportes favoritos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-3.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    01
+                                </h1>
+                            </div>
+                            <h5 class="text-white">Últimas Noticias de Arte</h5>
+                            <hr class="w-25" />
+                            <span
+                                >Mantente informado sobre las exposiciones de
+                                arte, inauguraciones de galerías y los eventos
+                                más destacados de la escena artística en España.
+                                Desde el arte contemporáneo hasta las obras
+                                clásicas, aquí encontrarás todo lo relacionado
+                                con el mundo del arte.</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-4.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    02
+                                </h1>
+                            </div>
+                            <h5 class="text-white">Deportes y Competencias</h5>
+                            <hr class="w-25" />
+                            <span
+                                >Entérate de las últimas noticias sobre los
+                                equipos deportivos, competiciones nacionales e
+                                internacionales y los logros más destacados de
+                                los atletas españoles. Desde el fútbol hasta el
+                                baloncesto y el ciclismo, todo está aquí.</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="h-100 bg-dark p-4 p-xl-5">
+                            <div
+                                class="d-flex align-items-center justify-content-between mb-4"
+                            >
+                                <div
+                                    class="btn-square rounded-circle"
+                                    style="
+                                        width: 64px;
+                                        height: 64px;
+                                        background: #000000;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/icon/icon-2.png"
+                                        alt="Icon"
+                                    />
+                                </div>
+                                <h1
+                                    class="display-1 mb-0"
+                                    style="color: #000000"
+                                >
+                                    03
+                                </h1>
+                            </div>
+                            <h5 class="text-white">Cultura en Movimiento</h5>
+                            <hr class="w-25" />
+                            <span
+                                >Explora los eventos culturales más importantes,
+                                desde festivales de música y cine hasta ferias
+                                literarias. Descubre cómo la cultura en España
+                                sigue siendo un pilar fundamental de la
+                                sociedad.</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-4">
+                                Información Cultural Relevante en España
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                España es un país vibrante lleno de arte,
+                                deportes y cultura. Aquí encontrarás las últimas
+                                actualizaciones sobre las principales
+                                actividades culturales y deportivas, desde las
+                                obras maestras de nuestros artistas hasta los
+                                triunfos de nuestros atletas. Únete a nosotros
+                                para explorar y celebrar lo mejor que España
+                                tiene para ofrecer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div
+                        class="bg-primary mb-3 mx-auto"
+                        style="width: 60px; height: 2px"
+                    ></div>
+                    <h1 class="display-5">
+                        Mantente Informado con Noticias de Arte, Deportes y
+                        Cultura en España
+                    </h1>
+                    <p class="mb-5">
+                        Bienvenido a nuestra sección de blog, donde compartimos
+                        noticias, consejos y tendencias del mundo del arte, los
+                        deportes y la cultura en España. Descubre las últimas
+                        novedades, eventos y reportajes exclusivos que te
+                        mantendrán al día con todo lo que sucede en estos
+                        fascinantes campos.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    La Magia del Prado: Obras Maestras que No Te
+                                    Puedes Perder
+                                </h5>
+                                <span>
+                                    Explora las joyas artísticas del Museo del
+                                    Prado en Madrid. Este artículo destaca las
+                                    obras más icónicas y sus fascinantes
+                                    historias. Sumérgete en el arte clásico y
+                                    descubre cómo estas piezas han influido en
+                                    la cultura mundial.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="overflow-hidden position-relative">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 400px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">
+                                    Fútbol y Pasión: La Liga, Mucho Más que un
+                                    Deporte
+                                </h5>
+                                <span>
+                                    Desde los goles inolvidables hasta las
+                                    rivalidades legendarias, este artículo te
+                                    lleva a un recorrido por los momentos más
+                                    emblemáticos de La Liga. Descubre por qué el
+                                    fútbol es mucho más que un deporte en
+                                    España.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <div
+                                class="bg-primary mb-3"
+                                style="width: 60px; height: 2px"
+                            ></div>
+                            <h1 class="display-5 mb-5">
+                                Tu Ventana a la Cultura Española
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Mantente conectado con lo mejor del arte, los
+                                deportes y la cultura en España. Desde
+                                exposiciones de renombre hasta eventos
+                                deportivos que hacen historia, nuestra
+                                plataforma te ofrece una mirada privilegiada a
+                                la esencia de España.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Arte
+                                            </p>
+                                            <h5 class="mb-0">Exposiciones</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Deportes
+                                            </p>
+                                            <h5 class="mb-0">Competencias</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                Cultura
+                                            </p>
+                                            <h5 class="mb-0">Eventos</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="ms-4">
+                                            <p class="text-primary mb-2">
+                                                24/7
+                                            </p>
+                                            <h5 class="mb-0">Actualización</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-0" style="min-height: 400px">
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- NEWS Start -->
+        <div class="container-fluid p-0 pb-5">
+            <div class="owl-carousel news-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-1.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Bienvenidos a las Noticias de Arte en
+                                        España
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Descubre las últimas tendencias y
+                                        eventos en el mundo del arte en España.
+                                        Desde exposiciones en museos hasta
+                                        artistas emergentes, te mantenemos
+                                        informado sobre todo lo relacionado con
+                                        el arte.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-2.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Deportes en España: Lo Más Destacado
+                                    </h1>
+                                    <p class="fs-5 text-white mb-4 pb-2">
+                                        Mantente al tanto de los eventos
+                                        deportivos en España, desde partidos de
+                                        fútbol inolvidables hasta emocionantes
+                                        torneos de tenis. Todo lo que necesitas
+                                        saber sobre deportes lo encuentras aquí.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/news-3.jpg" alt="" />
+                    <div class="carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Cultura Española: Eventos y Tradiciones
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Explora la riqueza cultural de España,
+                                        desde festivales tradicionales hasta
+                                        innovadores eventos contemporáneos.
+                                        Conoce la historia y las celebraciones
+                                        que hacen única a esta nación.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- NEWS End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid bg-light overflow-hidden px-lg-0">
+            <div class="container">
+                <div class="p-lg-5 ps-lg-0">
+                    <div class="section-title text-start">
+                        <h1 class="display-5 mb-4">Contáctanos</h1>
+                    </div>
+                    <form action="thanks.html" method="GET">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                        required
+                                        placeholder="Tu Nombre"
+                                    />
+                                    <label for="name">Tu Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="surname"
+                                        required
+                                        placeholder="Tu Apellido"
+                                    />
+                                    <label for="surname">Tu Apellido</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        required
+                                        placeholder="Tu Correo Electrónico"
+                                    />
+                                    <label for="email"
+                                        >Tu Correo Electrónico</label
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select
+                                        name="Tipo de servicio"
+                                        aria-valuemax="tipo de servicio"
+                                        id=""
+                                        required
+                                    >
+                                        <option value="deportes">
+                                            Deportes
+                                        </option>
+                                        <option value="arte">Arte</option>
+                                        <option value="cultura">Cultura</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input
+                                        required
+                                        style="width: 100% !important"
+                                        type="text"
+                                        inputmode="numeric"
+                                        pattern="^[0-9]+$"
+                                        class="form-control"
+                                        id="phone"
+                                        placeholder="Número de Teléfono"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-primary w-100 py-3"
+                                    type="submit"
+                                    id="submit"
+                                >
+                                    Enviar Mensaje
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">CulturaActiva</h5>
+                        <p>
+                            Bienvenido a nuestra plataforma dedicada a las
+                            últimas noticias sobre arte, deportes y cultura en
+                            España. Descubre eventos, exposiciones,
+                            competiciones deportivas y más, para mantenerte
+                            informado y conectado con la rica vida cultural del
+                            país.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Dirección</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            C. Tiberio, 15, 28232 Las Rozas de Madrid, Madrid,
+                            España
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>
+                            cultura_activa@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>+34916266106
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Enlaces Rápidos</h5>
+                        <a class="btn btn-link" href="about.html"
+                            >Sobre Nosotros</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Términos y Condiciones</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Política de Privacidad</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Política de Cookies</a
+                        >
+                        <a class="btn btn-link" href="disclaimer.html"
+                            >Aviso Legal</a
+                        >
+                        <a class="btn btn-link" href="business-model.html">
+                            Modelo comercial
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza
+                    <a href="cookie-policy.html">política de cookies</a> para
+                    ofrecerte una mejor experiencia de navegación, enfocada en
+                    noticias relacionadas con arte, deportes y cultura en
+                    España.
+                    <a href="privacy-policy.html">más información...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script>
+            const input = document.querySelector('#phone');
+            window.intlTelInput(input, {
+                loadUtils: () =>
+                    import(
+                        'https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js'
+                    ),
+            });
+        </script>
+    </body>
+</html>
